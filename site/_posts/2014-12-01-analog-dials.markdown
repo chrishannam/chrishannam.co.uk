@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Analog Dials"
-date:   2019-03-06 12:16:54 +0000
+date:   2014-12-01 12:16:54 +0000
 categories: analog arduino
 ---
 I have a deep love of old style analog dials. Recently I found a place selling old voltage meters. There were unusable by todays standards but they looked great. With a bit customising I set about converting them to use hobby servos and make them fully controlled by an Arduino.
@@ -31,7 +31,7 @@ Above is the basic wiring, two servo controls and 6 LED controls. I kept the bre
 
 Below is the simple code I used to control them:
 
-```
+```cpp
 /*
 I started with the sample from this guy
 
