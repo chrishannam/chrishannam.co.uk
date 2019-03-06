@@ -1,8 +1,10 @@
 ---
 layout: post
 title:  "Analog Dials"
-date:   2019-03-06 12:16:54 +0000
+date:   2014-12-01 12:16:54 +0000
 categories: analog arduino
+excerpt: What text editor to use? Sass or plain old CSS? What on earth is Compass? Command    line? I'm not touching that. Sound like you? Welcome, I was once like you and this is the guide I wish someone had given me.
+
 ---
 I have a deep love of old style analog dials. Recently I found a place selling old voltage meters. There were unusable by todays standards but they looked great. With a bit customising I set about converting them to use hobby servos and make them fully controlled by an Arduino.
 
@@ -12,12 +14,12 @@ I have a deep love of old style analog dials. Recently I found a place selling o
 
 The analog dials:
 
-<img src="/assets/2014/12/3_dials.jpg" alt="Monitors">
+<img src="/assets/2014/12/3_dials.jpg" alt="3 Dials">
 
 Below is the fairly quick transformation. Gutted the insides of the unit and used a glue gun to mount the servo and blu tac to attach the needle.
 
-<img src="/assets/2014/12/monitor-in-bits.jpg" alt="Monitors">
-<img src="/assets/2014/12/work-of-art.jpg" alt="Monitors">
+<img src="/assets/2014/12/monitor-in-bits.jpg" alt="Dial in bits">
+<img src="/assets/2014/12/work-of-art.jpg" alt="Work of Art">
 
 After the servos were mounted, I added a tri colour LED.
 
@@ -31,7 +33,7 @@ Above is the basic wiring, two servo controls and 6 LED controls. I kept the bre
 
 Below is the simple code I used to control them:
 
-```
+```cpp
 /*
 I started with the sample from this guy
 
