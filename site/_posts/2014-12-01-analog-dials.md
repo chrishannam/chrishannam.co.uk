@@ -3,8 +3,6 @@ layout: post
 title:  "Analog Dials"
 date:   2014-12-01 12:16:54 +0000
 categories: analog arduino
-excerpt: What text editor to use? Sass or plain old CSS? What on earth is Compass? Command    line? I'm not touching that. Sound like you? Welcome, I was once like you and this is the guide I wish someone had given me.
-
 ---
 I have a deep love of old style analog dials. Recently I found a place selling old voltage meters. There were unusable by todays standards but they looked great. With a bit customising I set about converting them to use hobby servos and make them fully controlled by an Arduino.
 
